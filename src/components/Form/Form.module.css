@@ -1,0 +1,29 @@
+.content {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.content label {
+  padding-left: 10px;
+  text-align: left;
+}
+
+@media screen and (min-width: 480px) {
+  .content {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .content {
+    width: 650px;
+  }
+}
